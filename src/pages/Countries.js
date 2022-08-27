@@ -12,7 +12,7 @@ export const Countries = () => {
   const { error, results, query, handleSearchChange } = useCountries();
 
   return (
-    <div className='container mt-4 col-md-12'>
+    <div>
 
       {/* Header */}
       <Header />

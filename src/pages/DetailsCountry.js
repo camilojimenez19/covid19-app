@@ -1,12 +1,15 @@
 import React from 'react'
-// import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 export const DetailsCountry = () => {
 
-    // const { id } = useParams();
+    const { countrySlug } = useParams();
 
-    // console.log(id)
+    console.log(countrySlug)
     return (
-        <h1>DetailsCountry</h1>
+        <>
+
+            <h1>DetailsCountry</h1>
+        </>
     )
 }
