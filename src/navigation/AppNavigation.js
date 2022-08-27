@@ -4,7 +4,7 @@ import {
     useNavigate,
 } from "react-router-dom";
 
-import { Alert } from "../api/Alert";
+import { Alert } from "../components/Alert";
 import { Countries } from "../pages/Countries";
 import { DetailsCountry } from "../pages/DetailsCountry";
 
@@ -28,7 +28,6 @@ export const AppNavigation = () => {
                                     <button onClick={() => navigate("/")} className="btn btn-danger btn-lg ">Back</button>
                                 </div>
                             </>
-
                         )
                     }
                 />
